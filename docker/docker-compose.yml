@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  go-fyne-project:
+    build:
+      context: ../
+      dockerfile: Dockerfile
+    volumes:
+      - ../:/application
+    container_name: go-fyne-project
+    tty: true

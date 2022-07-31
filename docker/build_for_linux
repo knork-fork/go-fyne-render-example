@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker exec -it go-fyne-project /bin/bash -c 'go build -o /application/build/out /application/main.go'
